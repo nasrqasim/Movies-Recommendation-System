@@ -121,7 +121,8 @@ export default function Home() {
               <label htmlFor="movie-title" className="block text-sm font-medium text-gray-700 mb-2">
                 Find Your Next Favorite Movie
               </label>
-              <div className="flex gap-4">
+              {/* On mobile we stack the input and button vertically; on larger screens they sit side‑by‑side */}
+              <div className="flex flex-col sm:flex-row gap-4">
                 <input
                   id="movie-title"
                   type="text"
@@ -138,7 +139,7 @@ export default function Home() {
                 <button
                   type="submit"
                   disabled={loading}
-                  className="px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="w-full sm:w-auto px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   {loading ? 'Searching...' : 'Get Recommendations'}
                 </button>
