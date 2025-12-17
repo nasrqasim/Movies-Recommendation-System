@@ -71,7 +71,12 @@ export default function Contact() {
             <div className="space-y-6">
               <div>
                 <h3 className="text-lg font-semibold text-gray-800 mb-2">Email</h3>
-                <p className="text-gray-600">contact@aimovierec.com</p>
+                <a
+                  href="mailto:nasrqasimroonjha10@gmail.com"
+                  className="text-blue-600 hover:text-blue-800 break-all"
+                >
+                  nasrqasimroonjha10@gmail.com
+                </a>
                 <p className="text-sm text-gray-500 mt-1">We'll respond within 24 hours</p>
               </div>
 
@@ -79,25 +84,28 @@ export default function Contact() {
                 <h3 className="text-lg font-semibold text-gray-800 mb-2">Social Media</h3>
                 <div className="flex space-x-4">
                   <a 
-                    href="#" 
+                    href="https://www.linkedin.com/in/nasr-qasim-roonjha/"
+                    target="_blank"
+                    rel="noreferrer"
                     className="text-blue-600 hover:text-blue-800 transition-colors"
-                    onClick={(e) => e.preventDefault()}
                   >
                     LinkedIn
                   </a>
                   <a 
-                    href="#" 
-                    className="text-blue-400 hover:text-blue-600 transition-colors"
-                    onClick={(e) => e.preventDefault()}
-                  >
-                    Twitter
-                  </a>
-                  <a 
-                    href="#" 
+                    href="https://www.instagram.com/itsmecaptainnasr/"
+                    target="_blank"
+                    rel="noreferrer"
                     className="text-pink-600 hover:text-pink-800 transition-colors"
-                    onClick={(e) => e.preventDefault()}
                   >
                     Instagram
+                  </a>
+                  <a 
+                    href="https://www.facebook.com/nasrullah.roonjha.10/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-blue-700 hover:text-blue-900 transition-colors"
+                  >
+                    Facebook
                   </a>
                 </div>
               </div>
