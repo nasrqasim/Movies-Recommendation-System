@@ -99,12 +99,12 @@ export default function MovieCard({ movie, showLinks = false }: MovieCardProps) 
               </a>
             ) : null}
             <a
-              href={`https://moviebox.ph/search/${encodeURIComponent(movie.title || '')}`}
+              href="https://moviebox.ph/"
               target="_blank"
               rel="noreferrer"
               className="px-4 py-2 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors text-sm"
             >
-              Search on MovieBox
+              Download
             </a>
           </div>
         ) : null}

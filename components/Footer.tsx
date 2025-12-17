@@ -66,7 +66,6 @@ export default function Footer() {
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm text-gray-400">
           <p>© 2025 Nasrullah Qasim. All Rights Reserved.</p>
-          <p className="mt-2">This project is for educational purposes only.</p>
         </div>
       </div>
     </footer>

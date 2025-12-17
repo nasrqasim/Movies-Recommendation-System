@@ -38,7 +38,7 @@ function normalizeTitle(input: string): string {
 }
 
 function buildMovieBoxLink(title: string): string {
-  return `https://moviebox.ph/search/${encodeURIComponent(title)}`;
+  return `https://moviebox.ph/`;
 }
 
 function parseIndustriesParam(raw: string | null): string[] {
